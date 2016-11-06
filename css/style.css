@@ -72,8 +72,8 @@ http://stackoverflow.com/questions/22196587/how-to-center-align-vertically-the-c
 	opacity: 0;
 	font-size: 15px;
 	text-align: center;
-	margin-bottom: 25px
-;
+	margin-bottom: 25px;
+
 	-webkit-transition: opacity 1s ease-in;
 	   -moz-transition: opacity 1s ease-in;
 	     -o-transition: opacity 1s ease-in;
@@ -116,4 +116,28 @@ http://stackoverflow.com/questions/22196587/how-to-center-align-vertically-the-c
 #linkedin_logo{
 	height: 40px;
 	padding-bottom: 5px;
+}
+
+/* 
+ * Fade in effect for the contact logos
+ */
+
+.col-md-3 div {
+	opacity: 0;
+
+	-webkit-transition: opacity 1s ease-in;
+	   -moz-transition: opacity 1s ease-in;
+	     -o-transition: opacity 1s ease-in;
+	    -ms-transition: opacity 1s ease-in;
+			transition: opacity 1s ease-in;
+
+	-webkit-transition-delay: 4s;
+	   -moz-transition-delay: 4s;
+	     -o-transition-delay: 4s;
+	    -ms-transition-delay: 4s;
+			transition-delay: 4s;
+}
+
+.col-md-3 div.load{
+	opacity: 1;
 }
