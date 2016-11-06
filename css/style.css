@@ -65,55 +65,22 @@ p {
 	height: 200px;
 }
 
-
-#contact_info {
-		color: white;
-		font-family: "Trebuchet MS", Helvetica, sans-serif;
-}
-
-#github{
-	padding-left: 26.5%;
-	float: left;
-}
 #github_logo{
-	padding-left: 5%;
-	width: 40px;
 	height: 40px;
 	padding-bottom: 5px;
 }
 
-
-#resume{
-	padding-left: 10%;
-	float: left;
-}
 #resume_logo{
-	padding-left: 10%;
-	
 	height: 40px;
 	padding-bottom: 5px;
 }
 
-
-#flickr{
-	padding-left: 10%;
-	float:left;
-}
 #flickr_logo{
-	padding-left: 0%;
-	width: 40px;
 	height: 40px;
 	padding-bottom: 5px;
 }
 
-
-#linkedin{
-	padding-left: 10%;
-	float: left;
-}
 #linkedin_logo{
-	padding-left: 10%;
-	width: 40px;
 	height: 40px;
 	padding-bottom: 5px;
 }
