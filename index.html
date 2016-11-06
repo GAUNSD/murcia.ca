@@ -15,6 +15,8 @@
         <link rel="stylesheet" href="css/style.css">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/main.js"></script>
+
 
     </head>
     <body>
@@ -24,46 +26,51 @@
 
         <!-- Add your site or application content here -->
         
-        <nav class="navbar">
-          <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Gustavo Murcia</a>
-            </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Contact</a></li>
-
-              </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
-
-
-        <div class="container-fluid text-center">
-            <div class="jumbotron">
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
-                        <h1>Gustavo Murcia</h1>
-                        <p class="lead">
-                            Honours Spec in Computer Science 
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <div id="profile-pic">
+           <img src="img/HotlineCircle_1920.png">
         </div>
 
+        <div id="name">
+           <h1>Gustavo Andres Murcia</h1>
+        </div>
 
+        <div id="description">
+            <p>Honours Specialization in Computer Science with a minor in Software Engineering</p>
+        </div>
+
+        <!-- Courtesy of Hussein -->
+        <div id="contact_info" class="animated bounceInUp">
+            <div id="github">
+                <a href="http://www.github.com/gaunsd">
+                    <img id="github_logo" src="images/github.png" >
+                </a>
+                <br>
+                Github
+            </div>
+            <div id="resume">
+                <a href="other/resume.pdf">
+                    <img id="acrobat_logo" src="images/acrobat.png" >
+                </a>
+                <br>
+                Resume
+            </div>
+            <!-- make a bootstrap pop up thing to email lol -->
+            <div id="email">
+                <a href="mailto:gustavo@murcia.ca">
+                    <img id="email_logo" src="images/email.png" >
+                </a>
+                <br>
+                Email
+            </div>
+            <div id="linkedin">
+                <a href="http://www.linkedin.com/in/hussein-fahmy">
+                    <img id="linkedin_logo" src="images/linkedin.png" > 
+                </a>
+                <br>
+                LinkedIn
+            </div>
+       </div>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
