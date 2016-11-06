@@ -22,8 +22,8 @@ p {
  * Bootstrap CSS Changes
  */
 .container-fluid {
-	padding:  15%;
-
+	padding-left:  15%;
+	padding-right: 15%;
 }
 
 #name h1 {
