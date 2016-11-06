@@ -18,6 +18,14 @@ p {
 	color: #353535;
 }
 
+/*
+ * Bootstrap CSS Changes
+ */
+.container-fluid {
+	padding-left:  15%;
+	padding-right: 15%;
+}
+
 #name h1 {
     opacity: 0;
     margin-top: 25px;
