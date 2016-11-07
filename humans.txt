@@ -2,14 +2,14 @@
 # The humans responsible & technology colophon
 
 # TEAM
-
-    <name> -- <role> -- <twitter>
+	
+	Gustavo Andres Murcia
 
 # THANKS
 
-    <name>
+    Hussein Fahmy: For inspiring me to make this site. 
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    Apache Server Configs, jQuery, Modernizr, Normalize.css, Bootstrap
