@@ -19,6 +19,10 @@ p {
 	font-family: 'Lato', sans-serif;
 }
 
+h1 {
+	font-size: 50px;
+}
+
 /*
  * Bootstrap CSS Changes
  */
@@ -68,6 +72,48 @@ http://stackoverflow.com/questions/22196587/how-to-center-align-vertically-the-c
 #name h1.load {
     opacity: 1;
 }
+
+/*
+@media screen and (min-width: @screen-sm) {
+    body {
+        background-color: lightgreen;
+    }
+}
+*/
+
+/* ---------------------------------------- */
+/* -Media Query Settings Used by Bootstrap- */
+/* ---------------------------------------- */
+/* http://stackoverflow.com/questions/18424798/twitter-bootstrap-3-how-to-use-media-queries */
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+    #name h1{font-size: 6.5vw;}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
+
+/* ---------------------------------- */
+
 
 #description p {
 	opacity: 0;
