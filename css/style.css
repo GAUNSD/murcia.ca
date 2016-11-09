@@ -15,7 +15,6 @@ body {
 }
 
 p {
-	color: #353535;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -68,18 +67,18 @@ http://stackoverflow.com/questions/22196587/how-to-center-align-vertically-the-c
          -o-transition: opacity 2s ease-in;
         -ms-transition: opacity 2s ease-in;
     		transition: opacity 2s ease-in;
+
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
 }
+
 #name h1.load {
     opacity: 1;
 }
 
-/*
-@media screen and (min-width: @screen-sm) {
-    body {
-        background-color: lightgreen;
-    }
+#name h1:hover {
+	box-shadow: 10px 10px 5px #888888;
 }
-*/
 
 /* ---------------------------------------- */
 /* -Media Query Settings Used by Bootstrap- */
@@ -188,3 +187,46 @@ http://stackoverflow.com/questions/22196587/how-to-center-align-vertically-the-c
 .col-md-3 div.load{
 	opacity: 1;
 }
+
+
+/* Disabling transitions for click event */
+.notransition {
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-o-transition: none !important;
+	transition: none !important;
+}
+
+/*
+/* Background color change for lols 
+body {
+    -moz-animation: spin 1s infinite linear;
+}
+
+@-moz-keyframes spin {
+      0%   {background: grey;}
+      50%  {background: black;}
+      100% {background: white;}
+}
+
+*/
+
+/* Hover.css */
+/* Grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
