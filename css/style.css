@@ -67,18 +67,12 @@ http://stackoverflow.com/questions/22196587/how-to-center-align-vertically-the-c
          -o-transition: opacity 2s ease-in;
         -ms-transition: opacity 2s ease-in;
     		transition: opacity 2s ease-in;
-
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
 }
 
 #name h1.load {
     opacity: 1;
 }
 
-#name h1:hover {
-	box-shadow: 10px 10px 5px #888888;
-}
 
 /* ---------------------------------------- */
 /* -Media Query Settings Used by Bootstrap- */
@@ -186,15 +180,6 @@ http://stackoverflow.com/questions/22196587/how-to-center-align-vertically-the-c
 
 .col-md-3 div.load{
 	opacity: 1;
-}
-
-
-/* Disabling transitions for click event */
-.notransition {
-	-webkit-transition: none !important;
-	-moz-transition: none !important;
-	-o-transition: none !important;
-	transition: none !important;
 }
 
 /*
