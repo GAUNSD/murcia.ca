@@ -4,6 +4,7 @@
 
 html, body {
   height: 100%;
+  width: 100%;
   background-color: #DEDEDE;
 }
 body {
@@ -11,6 +12,7 @@ body {
   text-align: center;
 
   height: 100%;
+  width: 100%;
   
 }
 
@@ -36,6 +38,7 @@ h1 {
 
 .jumbotron {
 	background: none;
+	margin: 0;
 }
 
 /* 
@@ -62,11 +65,17 @@ http://stackoverflow.com/questions/22196587/how-to-center-align-vertically-the-c
 
     font-family: 'Lato', sans-serif;
     
-    -webkit-transition: opacity 2s ease-in;
-       -moz-transition: opacity 2s ease-in;
-         -o-transition: opacity 2s ease-in;
-        -ms-transition: opacity 2s ease-in;
-    		transition: opacity 2s ease-in;
+    -webkit-transition: opacity 200ms ease-in;
+       -moz-transition: opacity 200ms ease-in;
+         -o-transition: opacity 200ms ease-in;
+        -ms-transition: opacity 200ms ease-in;
+    		transition: opacity 200ms ease-in;
+
+    -webkit-transition-delay: 200ms;
+	   -moz-transition-delay: 200ms;
+	     -o-transition-delay: 200ms;
+	    -ms-transition-delay: 200ms;
+			transition-delay: 200ms;
 }
 
 #name h1.load {
@@ -114,28 +123,38 @@ http://stackoverflow.com/questions/22196587/how-to-center-align-vertically-the-c
 	text-align: center;
 	margin-bottom: 25px;
 
-	-webkit-transition: opacity 1s ease-in;
-	   -moz-transition: opacity 1s ease-in;
-	     -o-transition: opacity 1s ease-in;
-	    -ms-transition: opacity 1s ease-in;
-			transition: opacity 1s ease-in;
+	-webkit-transition: opacity 200ms ease-in;
+	   -moz-transition: opacity 200ms ease-in;
+	     -o-transition: opacity 200ms ease-in;
+	    -ms-transition: opacity 200ms ease-in;
+			transition: opacity 200ms ease-in;
 
-	-webkit-transition-delay: 2s;
-	   -moz-transition-delay: 2s;
-	     -o-transition-delay: 2s;
-	    -ms-transition-delay: 2s;
-			transition-delay: 2s;
+	-webkit-transition-delay: 400ms;
+	   -moz-transition-delay: 400ms;
+	     -o-transition-delay: 400ms;
+	    -ms-transition-delay: 400ms;
+			transition-delay: 400ms;
 }
 #description p.load {
     opacity: 1;
 }
 
 #profile-pic img {
+	opacity: 0;
 	display: block;
 	margin: auto;
 	margin-bottom: 50px;
 	margin-top: 50px;
 	height: 200px;
+
+	-webkit-transition: opacity 200ms ease-in;
+	   -moz-transition: opacity 200ms ease-in;
+	     -o-transition: opacity 200ms ease-in;
+	    -ms-transition: opacity 200ms ease-in;
+			transition: opacity 200ms ease-in;
+}
+#profile-pic img.load {
+	opacity: 1;
 }
 
 #github_logo{
@@ -162,40 +181,38 @@ http://stackoverflow.com/questions/22196587/how-to-center-align-vertically-the-c
  * Fade in effect for the contact logos
  */
 
-.col-md-3 div {
+.col-xs-3 div {
 	opacity: 0;
 
-	-webkit-transition: opacity 1s ease-in;
-	   -moz-transition: opacity 1s ease-in;
-	     -o-transition: opacity 1s ease-in;
-	    -ms-transition: opacity 1s ease-in;
-			transition: opacity 1s ease-in;
+	-webkit-transition: opacity 200ms ease-in;
+	   -moz-transition: opacity 200ms ease-in;
+	     -o-transition: opacity 200ms ease-in;
+	    -ms-transition: opacity 200ms ease-in;
+			transition: opacity 200ms ease-in;
 
-	-webkit-transition-delay: 4s;
-	   -moz-transition-delay: 4s;
-	     -o-transition-delay: 4s;
-	    -ms-transition-delay: 4s;
-			transition-delay: 4s;
+	-webkit-transition-delay: 600ms;
+	   -moz-transition-delay: 600ms;
+	     -o-transition-delay: 600ms;
+	    -ms-transition-delay: 600ms;
+			transition-delay: 600ms;
 }
 
-.col-md-3 div.load{
+.col-xs-3 div.load{
 	opacity: 1;
 }
 
-/*
-/* Background color change for lols 
-body {
+
+/* Background color change for lols */
+/*body {
     -moz-animation: spin 1s infinite linear;
 }
 
 @-moz-keyframes spin {
-      0%   {background: grey;}
-      50%  {background: black;}
-      100% {background: white;}
+      0%   {background: red;}
+      50%  {background: green;}
+      100% {background: blue;}
 }
-
 */
-
 /* Hover.css */
 /* Grow */
 .hvr-grow {
@@ -214,4 +231,14 @@ body {
   transform: scale(1.1);
 }
 
+/*
+Solarized theme 
+bg
+
+#002b36
+
+text
+#268bd2
+
+*/
 
