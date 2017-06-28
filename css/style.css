@@ -107,6 +107,9 @@ http://stackoverflow.com/questions/22196587/how-to-center-align-vertically-the-c
 @media (max-width: 767px) {
 
     #name h1{font-size: 6.5vw;}
+    .col-xs-3  p {
+    	font-size: 3vw;
+    }
 }
 
 /* Portrait phones and smaller */
